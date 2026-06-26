@@ -1,0 +1,22 @@
+# Environnements & cache Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Modeles & artefacts lourds (trop gros pour GitHub)
+models/
+*.joblib
+*.safetensors
+*.bin
+
+# Donnees & logs
+data/raw/
+data/*.db
+energy_logs/
+
+# OS / IDE
+.DS_Store
+.vscode/

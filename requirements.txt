@@ -1,0 +1,26 @@
+# --- Coeur data science ---
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+joblib==1.5.3
+
+# --- NLP / langue ---
+langdetect==1.0.9
+# Optionnel (transformers FR/EN) -- a activer pour la version BERT :
+# transformers==4.46.0
+# torch==2.5.1
+# sentencepiece==0.2.0
+
+# --- Collecte Bluesky ---
+atproto==0.0.68
+python-dotenv==1.2.2
+
+# --- Visualisation / dashboard ---
+streamlit==1.58.0
+plotly==6.8.0
+
+# --- Green IT ---
+codecarbon==3.2.8
+
+# --- Tests ---
+pytest==8.3.4

@@ -1,0 +1,12 @@
+# Dependances SUPPLEMENTAIRES pour la version transformer (CamemBERT / DistilBERT).
+# A installer SEULEMENT si tu utilises MODEL_BACKEND=transformer.
+#
+#   pip install -r requirements.txt
+#   pip install -r requirements-transformer.txt
+#
+# Tout est open source et gratuit (Hugging Face / PyTorch).
+# Sur Apple Silicon (Mac M1/M2/M3), torch utilise automatiquement le GPU "mps".
+
+transformers>=4.40,<5
+torch>=2.2
+sentencepiece>=0.2.0      # requis par CamemBERT / XLM-R (tokenizer)
